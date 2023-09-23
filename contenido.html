@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/newticketcc.css">
+</head>
+<body>
+    <h1 >Registro de Ticket</h1>
+    <form>
+        <table >        
+    <tr>
+        <td><label>Fecha de Registro:</label></td>
+        <td><input type="text" name="Fecha de Registro" required></td>
+        <td><label>Usuario:</label></td>
+        <td><input type="text" name="Usuario" required></td>
+    </tr>
+    <tr>
+        <td><label>Cliente Solicitante:</label></td>
+        <td><input type="text" name="Cliente Solicitante" required></td>
+        <td><label>Area:</label></td>
+        <td><input type="text" name="Area" required></td>
+    </tr>
+    <tr>
+        <td><label>Numero de Cliente:</label></td>
+        <td><input type="email" name="Numero de Cliente" required></td>
+        <td><label>Categoria de Incidente:</label></td>
+        <td>
+            <select name="Categoria de Incidente" id="">
+            <option value="A">Alta</option>
+            <option value="B">Media</option>
+            <option value="C">Baja</option>           
+        </select></td>
+    </tr>
+    <tr>
+        <td><label>Correo Electronico:</label></td>
+        <td><input type="text" name="Correo Electronico" required></td>
+        <td><label>Urgencia:</label></td>
+        <td>
+            <select name="Urgencia" id="">
+            <option value="A">Urge</option>
+            <option value="B">No Urge</option>                      
+        </select></td>
+    </tr>
+    <tr>
+        <td><label>Telefono:</label></td>
+        <td><input type="text" name="Telefono" required></td>
+    </tr>
+    <tr>
+        <td><label>Asignado a:</label></td>
+        <td>
+            <select name="Asignado a" id="">
+            <option value="A">n1</option>
+            <option value="B">n2</option>                      
+        </select></td>
+    </tr>
+    <tr>
+        <td><label>Descripcion:</label></td><br>
+        <td><input type="text" name="Descripcion" required></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input type="button" value="Boton" height="12px">
+            <button>
+                <img src="imagenes/285657_floppy_guardar_save_icon.png" height="12px">
+                Registrar
+            </button>
+            <button>
+                <img src="imagenes/8666681_edit_icon.png" height="12px">
+                Editar
+            </button>
+            <button>
+                <img src="imagenes/216170_delete_icon.png" height="12px">
+                Eliminar
+            </button>
+            <input type="submit" value="Enviar">
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

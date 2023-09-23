@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/newticketcc.css">
+</head>
+<body>
+    
+    <form >
+        <table>
+    <tr>
+        <td><label>Agregar información de trabajo</label></td>
+    </tr>
+    <tr>
+        <td><label>Notas:</label></td>
+        <td><input type="text" name="Notas" required></td>
+    </tr>
+    <tr>
+        <td><label>Adjunto:</label></td>
+        <td><input value="nombre de archivo" type="text" name="Adjunto" required></td>
+    </tr>
+    <tr>
+        <td><label>Tipo de información de trabajo:</label></td>
+        <td>
+            <select name="Impacto" id="">
+            <option value="A">Información general</option>
+            <option value="B">Derivacion</option>
+            <option value="C">Asignación</option>
+            <option value="D">Cierre tecnico</option>  
+            <option value="E">Comunicacion con proveedor</option> 
+            <option value="F">Asignación</option>
+            <option value="G">Comunicación con Cliente</option>  
+            <option value="H">Detalle de cierre</option>             
+        </select></td>   
+    </tr>
+    <tr>
+        <td colspan="2">
+            
+            <button>
+                <img src="imagenes/216170_delete_icon.png" height="8px">
+                Eliminar
+            </button>
+            <input type="submit" value="Agregar">
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/newticketcc.css">
+</head>
+
+<body>
+    <!-- div contenedor total-->
+    <div class="contenedor">
+        <!-- Encabezado-->
+        <header>
+            <nav>
+                <ul>
+                    <img src="/imagenes/interbank-logo-4418C6C1CA-seeklogo.com.png" height="20px">
+                    <a href="#points">Identificacion y registro</a>
+                    <a href="#menu">soporte davis</a>
+
+                </ul>
+                <nav>
+        </header>
+
+        <!-- main con todo inferior total-->
+        <main class="elmain">
+            <aside>
+                <div style="border: 2px solid #ccc;border-radius: 10px;">
+                    <td>
+                        <button class="pregunta">
+                            <img src="imagenes/285657_floppy_guardar_save_icon.png" height="12px">
+                            Registrar
+                        </button>
+                        <button class="pregunta">
+                            <img src="imagenes/8666681_edit_icon.png" height="12px">
+                            Editar
+                        </button>
+                        <button class="pregunta">
+                            <img src="imagenes/216170_delete_icon.png" height="12px">
+                            Eliminar
+                        </button>
+                        <input class="pregunta" type="submit" value="Enviar">
+                    </td>
+                </div>
+            </aside>
+
+            <!-- registro de tickets 1 -->
+            <section>
+                <article id="casa">
+
+                    <hr>
+                    <form>
+                        <table>
+                            <tr>
+                                <td><label>ID de ticket:*</label></td>
+                                <td><input value="INC000012345" type="text" name="ID de ticket" required></td>
+                            </tr>
+                            <tr>
+                                <td><label>Área solicitante:*</label></td>
+                                <td><input type="text" name="Fecha de Registro" required></td>
+                            </tr>
+                            <tr>
+                                <td><label>Cliente Solicitante:*</label></td>
+                                <td><input type="text" name="Cliente Solicitante" required></td>
+                            </tr>
+                            <tr>
+                                <td><label>Numero de Contacto:</label></td>
+                                <td><input type="email" name="Numero de contacto" required></td>
+                            </tr>
+                            <tr>
+                                <td><label>Descripcion:*</label></td><br>
+                                <td><input type="text" name="Descripcion" required></td>
+                            </tr>
+                            <tr>
+                                <td><label>Fecha de Registro:*</label></td>
+                                <td><input type="text" name="Fecha de Registro" required></td>
+                            </tr>
+
+                            <tr>
+                                <td><label>Correo Electronico:</label></td>
+                                <td><input type="text" name="Correo Electronico" required></td>
+                            </tr>
+                            <tr>
+                                <td><label>Telefono:</label></td>
+                                <td><input type="text" name="Telefono" required></td>
+                            </tr>
+
+                            <tr>
+                                <td><label>Impacto:*</label></td>
+                                <td>
+                                    <select name="Impacto" id="">
+                                        <option value="A">Extenso/Genralizado</option>
+                                        <option value="B">Significativo/Amplio</option>
+                                        <option value="C">Moderado/Limitado</option>
+                                        <option value="D">Menor/Localizado</option>
+                                        <option value="E"></option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label>Prioridad:*</label></td>
+                                <td>
+                                    <select name="Prioridad" id="">
+                                        <option value="A">Critica</option>
+                                        <option value="B">Alta</option>
+                                        <option value="C">Media</option>
+                                        <option value="D">Baja</option>
+                                        <option value="E"></option>
+                                    </select>
+                                </td>
+                            <tr>
+                                <td><label>Urgencia:*</label></td>
+                                <td>
+                                    <select name="Urgencia" id="">
+                                        <option value="A">Critica</option>
+                                        <option value="B">Alta</option>
+                                        <option value="C">Media</option>
+                                        <option value="D">Baja</option>
+                                        <option value="E"></option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label>Grupo Asignado:*</label></td>
+                                <td><input type="text" name="Grupo Asignado" required></td>
+                            </tr>
+                            </tr>
+
+                            <tr>
+                                <td><label>Usuario asignado:</label></td>
+                                <td><input type="text" name="Usuario asignado" required></td>
+                            </tr>
+                            <tr>
+                                <td><label>Grupo de proveedores:</label></td>
+                                <td><input type="text" name="Grupo de proveedores" required></td>
+                            </tr>
+                            <tr>
+                                <td><label>Núm de ticket del proveedor:</label></td>
+                                <td><input type="text" name="Grupo de proveedores" required></td>
+
+                            </tr>
+                            <tr>
+                                <td><label>Estado:*</label></td>
+                                <td>
+                                    <select name="Urgencia" id="">
+                                        <option value="A">Asignado</option>
+                                        <option value="B">En curso</option>
+                                        <option value="C">Pendiente</option>
+                                        <option value="D">Resuelto</option>
+                                        <option value="E">Cerrado</option>
+                                        <option value="E">Cancelado</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label>Motivo del estado:</label></td>
+                                <td><input type="text" name="Motivo del estado" required></td>
+                            </tr>
+                            <tr>
+                                <td><label>Resolución:</label></td>
+                                <td><input type="text" name="Resolución" required></td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2">
+                                    <input type="button" value="Buscar" height="12px">
+                                    <button>
+                                        <img src="imagenes/285657_floppy_guardar_save_icon.png" height="12px">
+                                        Registrar
+                                    </button>
+                                    <button>
+                                        <img src="imagenes/8666681_edit_icon.png" height="12px">
+                                        Editar
+                                    </button>
+                                    <button>
+                                        <img src="imagenes/216170_delete_icon.png" height="12px">
+                                        Cancelar
+                                    </button>
+                                    <input type="submit" value="Enviar">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </article>
+
+                <!-- registro de tickets 2-->
+                <article id="casa2">
+                    <form class="form1">
+                        <table>
+                            <tr>
+                                <td colspan="2">
+                                    <button>
+                                        <img src="imagenes/8666681_edit_icon.png" height="12px">
+                                        <a href="/DetallesTrabajo.html" target="marco1">Detalles de Trabajo</a>
+                                    </button>
+                                    <button>
+                                        <img src="imagenes/8666681_edit_icon.png" height="12px">
+                                        <a href="/contenido.html" target="marco1">Fecha Sistema</a>
+                                    </button>
+                                    
+                                </td>
+                            </tr>
+
+                            <table>
+
+                    </form>
+
+                    <iframe style="height:1085px ;width: 100%;" src="/DetallesTrabajo.html" name='marco1'></iframe>
+
+
+                </article>
+            </section>
+
+        </main>
+    </div>
+</body>
+
+</html>
